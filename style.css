@@ -254,10 +254,11 @@ p {
 	animation-delay: 3s;
 }
 #hero h1 span {
-	position: absolute;
+	position:absolute;
 	top: 0;
 	left: 0;
-	height: 100%;
+	margin-top: 100px;
+	height: 68%;
 	width: 0;
 	background-color: dodgerblue;
 	animation: text_reveal_box 1s ease;
@@ -471,8 +472,9 @@ p {
 #contact .contact {
 	flex-direction: column;
 	max-width: 1200px;
-	margin: -150px auto;
+	margin: -80px auto;
 	width: 90%;
+	margin-bottom: 50px;
 }
 #contact .contact-items {
 	/* max-width: 400px; */
